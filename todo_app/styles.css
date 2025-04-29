@@ -1,0 +1,22 @@
+#inputContainer{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+    gap:10px
+}
+#inputContainer button ,#inputContainer input{
+    font-size:20px;
+}
+
+#todos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#todos div{
+    margin:5px;
+    padding:5px;
+    border:1px solid gray
+}
